@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/item_code_iv0"
+            style="@style/textview_style" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_code_iv1"
+            style="@style/textview_style" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_code_iv2"
+            style="@style/textview_style" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_code_iv3"
+            style="@style/textview_style" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_code_iv4"
+            style="@style/textview_style" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_code_iv5"
+            style="@style/textview_style" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="41dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_white" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/item_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/transparent"
+        android:maxLength="6"
+        android:inputType="number" />
+</RelativeLayout>
