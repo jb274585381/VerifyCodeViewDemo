@@ -29,13 +29,13 @@ public class VerifyCodeView extends RelativeLayout {
         View.inflate(context, R.layout.view_verify_code, this);
 
         textViews = new TextView[MAX];
-        textViews[0] = (TextView) findViewById(R.id.item_code_iv0);
-        textViews[1] = (TextView) findViewById(R.id.item_code_iv1);
-        textViews[2] = (TextView) findViewById(R.id.item_code_iv2);
-        textViews[3] = (TextView) findViewById(R.id.item_code_iv3);
-        textViews[4] = (TextView) findViewById(R.id.item_code_iv4);
-        textViews[5] = (TextView) findViewById(R.id.item_code_iv5);
-        editText = (EditText) findViewById(R.id.item_edittext);
+        textViews[0] = (TextView) findViewById(R.id.tv_0);
+        textViews[1] = (TextView) findViewById(R.id.tv_1);
+        textViews[2] = (TextView) findViewById(R.id.tv_2);
+        textViews[3] = (TextView) findViewById(R.id.tv_3);
+        textViews[4] = (TextView) findViewById(R.id.tv_4);
+        textViews[5] = (TextView) findViewById(R.id.tv_5);
+        editText = (EditText) findViewById(R.id.edit_text_view);
 
         editText.setCursorVisible(false);//隐藏光标
         setEditTextListener();

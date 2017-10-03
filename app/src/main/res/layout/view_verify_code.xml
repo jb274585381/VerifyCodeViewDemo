@@ -11,7 +11,7 @@
 
 
         <TextView
-            android:id="@+id/item_code_iv0"
+            android:id="@+id/tv_0"
             style="@style/textview_style" />
 
         <View
@@ -20,7 +20,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/item_code_iv1"
+            android:id="@+id/tv_1"
             style="@style/textview_style" />
 
         <View
@@ -29,7 +29,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/item_code_iv2"
+            android:id="@+id/tv_2"
             style="@style/textview_style" />
 
         <View
@@ -38,7 +38,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/item_code_iv3"
+            android:id="@+id/tv_3"
             style="@style/textview_style" />
 
         <View
@@ -47,7 +47,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/item_code_iv4"
+            android:id="@+id/tv_4"
             style="@style/textview_style" />
 
         <View
@@ -56,7 +56,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/item_code_iv5"
+            android:id="@+id/tv_5"
             style="@style/textview_style" />
 
 
@@ -133,12 +133,13 @@
 
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/item_edittext"
+    <com.example.bruce.verifycodeviewdemo.MyEditText
+        android:id="@+id/edit_text_view"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:background="@android:color/transparent"
         android:textColor="@color/transparent"
+        android:longClickable="false"
         android:maxLength="6"
         android:inputType="number" />
 </RelativeLayout>
